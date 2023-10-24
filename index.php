@@ -29,7 +29,7 @@
                 <a href="inspi.php">
                     <li>Inspiration</li>
                 </a>
-                <img src="#" alt="logo">
+                <a href="index.php"><img src="img/logo.png" alt="logo"></a>
                 <a href="#">
                     <li>Échange</li>
                 </a>

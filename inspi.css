@@ -5,8 +5,13 @@
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    background-color: red;
+    background-color: #FF8A00;
     display: flex;
+    transition: all 0.2s;
+}
+#addPost:hover{
+    background-color: #FFBB37;
+    transition: all 0.2s;
 }
 
 #addPost img{

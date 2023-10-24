@@ -29,12 +29,12 @@
                 <a href="inspi.php">
                     <li>Inspiration</li>
                 </a>
-                <img src="" alt="logo">
+                <a href="index.php"><img src="img/logo.png" alt="logo"></a>
                 <a href="#">
                     <li>Échange</li>
                 </a>
                 <a href="#">
-                    <li>Login</li>
+                    <li>Compte</li>
                 </a>
             </ul>
         </div>
@@ -63,8 +63,8 @@
 
     <h2>Créer un post</h2>
     <form action="post-cree.php" method="post">
-        Titre du post: <input type="text" name="titre" placeholder="https://monimage.png">
-        Lien de votre image: <input type="text" name="image">
+        Titre du post: <input type="text" name="titre" placeholder="Mon post">
+        Lien de votre image: <input type="text" name="image" placeholder="https://monimage.png">
         Nom d'utilisateur: <input type="text" name="username">
         <input type="submit">
     </form>

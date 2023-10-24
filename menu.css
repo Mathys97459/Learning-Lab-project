@@ -1,18 +1,19 @@
 :root{
-    --color1: #171717;
-    --color2: #ededed;
-    --color3: #202020;
-    --color4: #484848;
-    --color5: #6F6F6F;
+    --color1: #FF8A00;
+    --color2: #FFBB37;
+    --color3: #fff;
+    --color4: #000;
   }
 
-*{
-    font-family: "Poppins", sans-serif;
-}
+  *{
+    font-family:"Poppins", sans-serif;
+    margin:0;
+    padding:0;
+  }
 
   nav {
     background-color: var(--color3);
-    border-bottom: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color3);
     padding-bottom: 25px;
     top: 0;
     width: 100%;
@@ -30,12 +31,12 @@
   
   #menuToggle a {
     text-decoration: none;
-    color: var(--color2);
+    color: var(--color3);
     transition: color 0.3s ease;
   }
   
   #menuToggle a:hover {
-    color: var(--color5);
+    color: var(--color3);
   }
   
   
@@ -55,8 +56,41 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    align-items: center;
   }
   
+#menu li {
+  border: 1px solid #FF8A00;
+  border-radius:25px;
+  padding:2px 15px 2px 15px;
+  background-color: #FF8A00;
+  transition: all 0.2s;
+}
+#menu li:hover{
+    border: 1px solid var(--color2);
+    background-color: var(--color2);
+    transition: all 0.2s;
+  }
+
+#menu img {
+  border: 1px solid #FF8A00;
+  border-radius:50%;
+  padding:5px;
+  background-color: #FF8A00;
+  width:50px;
+  height:50px;
+  transition: all 0.2s;
+}
+#menu img:hover{
+    border: 1px solid var(--color2);
+    background-color: var(--color2);
+    transition: all 0.2s;
+  }
+
+.video-container {
+  width:100%;
+  height:100%;
+}
 
 @media (max-width: 768px){
   nav {
@@ -76,7 +110,6 @@
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
-    font-family: 'Louis George Cafe', sans-serif;
     color: var(--color1);
   }
   
@@ -169,6 +202,9 @@
   
   #menu li {
     padding: 10px 0;
+    border:none;
+    border-radius:none;
+    background: var(--color4);
   }
   
   #menuToggle input:checked~ul {
