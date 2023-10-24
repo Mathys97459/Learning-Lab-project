@@ -25,7 +25,7 @@
                 <a href="#">
                     <li>Calendrier</li>
                 </a>
-                <a href="#">
+                <a href="inspi.php">
                     <li>Inspiration</li>
                 </a>
                 <img src="" alt="logo">

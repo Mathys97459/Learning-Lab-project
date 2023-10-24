@@ -6,6 +6,10 @@
     --color5: #6F6F6F;
   }
 
+*{
+    font-family: "Poppins", sans-serif;
+}
+
   nav {
     background-color: var(--color3);
     border-bottom: 2px solid var(--color2);
