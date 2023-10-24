@@ -21,7 +21,7 @@
     try {
         $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password); //variable connexion : accès à la base de données
     } catch (PDOException $e) {
-        echo "Connection failed: " . $e->GetMessage();
+        echo "Connection failed: " . $e->GetMessage(); 
     }
 
 
