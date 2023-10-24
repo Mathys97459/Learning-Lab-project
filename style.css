@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:"Poppins", sans-serif;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+p{
+    font-size: 0.9rem;
+}
+
+.projects{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.projects #user-infos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.projects #project-image{
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.projects #project-titre{
+    margin: 5px 0 5px 0;
+}
+
+.projects #user-pp{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
