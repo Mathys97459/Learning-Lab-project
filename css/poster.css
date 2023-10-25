@@ -1,0 +1,46 @@
+.section-form{
+    margin: 4rem 20rem 0 20rem;
+}
+
+.section-form h2{
+    margin-bottom: 2rem;
+}
+
+.section-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-form form input[type="submit"]{
+    cursor: pointer;
+    margin-top: 2rem;
+    width: 25%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width:1500px){
+    
+}
+
+@media (max-width:1100px){
+    .section-form{
+        margin: 4rem 15rem 0 15rem;
+    }
+}
+
+@media (max-width:768px){
+    .section-form{
+        margin: 8rem 5rem 0 5rem;
+    }
+    .section-form form input[type="submit"]{
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px){
+    .section-form{
+        margin: 12rem 2rem 0 2rem;
+    }
+}
