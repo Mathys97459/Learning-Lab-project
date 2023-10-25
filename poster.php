@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="poster.css">
     <title>Document</title>
 
     <nav role="navigation">
@@ -20,7 +21,7 @@
             <span></span>
             <span></span>
             <ul id="menu">
-                <a id="home" href="index.php">
+                <a id="home" href="index.html">
                     <li>Home</li>
                 </a>
                 <a href="#">
@@ -29,7 +30,7 @@
                 <a href="inspi.php">
                     <li>Inspiration</li>
                 </a>
-                <a href="index.php"><img src="img/logo.png" alt="logo"></a>
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
                 <a href="#">
                     <li>Échange</li>
                 </a>
@@ -60,15 +61,15 @@
     $resultat = $conn->prepare($affichage);
     $resultat->execute();
     ?>
-
-    <h2>Créer un post</h2>
-    <form action="post-cree.php" method="post">
-        Titre du post: <input type="text" name="titre" placeholder="Mon post">
-        Lien de votre image: <input type="text" name="image" placeholder="https://monimage.png">
-        Nom d'utilisateur: <input type="text" name="username">
-        <input type="submit">
-    </form>
-
+    <div class="section-form">
+        <h2>Créer un post</h2>
+        <form action="post-cree.php" method="post">
+            Titre du post: <input type="text" name="titre" placeholder="Titre deu post">
+            Lien de votre image: <input type="text" name="image" placeholder="https://monimage.png">
+            Nom d'utilisateur: <input type="text" name="username">
+            <input type="submit">
+        </form>
+    </div>
 
 
     <script src="script.js"></script>
