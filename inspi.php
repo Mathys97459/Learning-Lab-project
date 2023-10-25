@@ -21,7 +21,7 @@
             <span></span>
             <span></span>
             <ul id="menu">
-                <a id="home" href="index.php">
+                <a id="home" href="index.html">
                     <li>Home</li>
                 </a>
                 <a href="#">
@@ -30,7 +30,7 @@
                 <a href="inspi.php">
                     <li>Inspiration</li>
                 </a>
-                <a href="index.php"><img src="img/logo.png" alt="logo"></a>
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
                 <a href="#">
                     <li>Échange</li>
                 </a>

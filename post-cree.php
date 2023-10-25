@@ -19,7 +19,7 @@
             <span></span>
             <span></span>
             <ul id="menu">
-                <a id="home" href="index.php">
+                <a id="home" href="index.html">
                     <li>Home</li>
                 </a>
                 <a href="#">
@@ -28,7 +28,7 @@
                 <a href="inspi.php">
                     <li>Inspiration</li>
                 </a>
-                <a href="index.php"><img src="img/logo.png" alt="logo"></a>
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
                 <a href="#">
                     <li>Échange</li>
                 </a>
@@ -49,7 +49,6 @@
 
     try {
         $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password); //variable connexion : accès à la base de données
-        echo "ok";
     } catch (PDOException $e) {
         echo "Connection failed: " . $e->GetMessage();
     }
@@ -59,7 +58,7 @@
     VALUES ('{$_POST['titre']}', '{$_POST['image']}','{$_POST['username']}', 'https://cours-informatique-gratuit.fr/wp-content/uploads/2014/05/compte-utilisateur-1.png')";
     $conn->exec($sql);
     ?>
-    <h2>Votre article à bien été ajouté !</h2>
+    <h2>Votre post a bien été créé !</h2>
 
 
 
