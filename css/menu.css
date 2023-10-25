@@ -87,7 +87,35 @@
     transition: all 0.2s;
   }
 
-  footer .column3 img {
+  footer {
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+footer button {
+  border: 1px solid #FF8A00;
+  border-radius: 25px;
+  padding: 8px 20px 8px 20px;
+  background-color: #FF8A00;
+  transition: all 0.2s;
+  color: var(--color3);
+  font-size: medium;
+  cursor: pointer;
+}
+
+footer .column3 img {
     height: 30px;
     width: 30px;
 }
@@ -158,7 +186,7 @@ footer input[type="email"] {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background-color: var(--color5);
+    background-color: var(--color1);
     border-radius: 3px;
     z-index: 2;
     transform-origin: 4px 0px;

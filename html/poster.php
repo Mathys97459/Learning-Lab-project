@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/poster.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <title>Document</title>
 
     <nav role="navigation">
@@ -76,14 +77,14 @@
 </body>
 <footer>
         <div class="column1">
-            <img src="img/logo-blanc.png" alt="logo">
+            <img src="../img/logo-blanc.png" alt="logo">
         </div>
         <div class="column2">
             <p>5 rue Gathier de châtillon <br> Lille, 59000 <br> ESPACE INKERMANN</p>
         </div>
         <div class="column3">
-            <img src="img/tiktok.png" alt="tiktok">
-            <img src="img/linkedin.png" alt="linkedin"><br><br>
+            <img src="../img/tiktok.png" alt="tiktok">
+            <img src="../img/linkedin.png" alt="linkedin"><br><br>
             <a href="#">Mentions légales</a><br>
             <a href="#">Politique de confidentialité</a><br>
             <a href="#">Termes et conditions</a>

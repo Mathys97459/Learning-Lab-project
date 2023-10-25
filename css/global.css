@@ -18,3 +18,21 @@ p{
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+.column3 img {
+    height: 30px;
+    width: 30px;
+}
+
+.column1 img {
+    height: 70px;
+    width: 70px;
+}
+
+input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
