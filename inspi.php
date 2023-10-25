@@ -31,7 +31,7 @@
                     <li>Inspiration</li>
                 </a>
                 <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-                <a href="#">
+                <a href="echange.html">
                     <li>Échange</li>
                 </a>
                 <a href="#">

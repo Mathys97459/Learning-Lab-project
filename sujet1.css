@@ -1,0 +1,83 @@
+section {
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 5rem;
+}
+
+.container {
+    padding: 20px 40px;
+    border: 4px solid #FF8A00;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.subject {
+    flex: 60%;
+    margin-right: 3rem;
+}
+
+#more-subjects {
+    flex: 40%;
+    padding: 20px 30px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    border: 0px solid #FF8A00;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+#title .icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.commentaire .user {
+    display: flex;
+    align-items: center;
+}
+
+.commentaire .user img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.commentaire .message {
+    padding-top: 15px;
+}
+
+#commentaire2 {
+    display: flex;
+    margin: 1rem 0 1rem 0;
+}
+
+#commentaire2 hr {
+    margin: 0 1rem 0 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#more-subjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#more-subjects a p {
+    color: #000;
+    text-decoration: none;
+}

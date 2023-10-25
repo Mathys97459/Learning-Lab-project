@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="poster.css">
+    <link rel="stylesheet" href="post-cree.css">
     <link rel="stylesheet" href="global.css">
     <title>Document</title>
 
@@ -22,18 +22,18 @@
                 <a id="home" href="index.html">
                     <li>Home</li>
                 </a>
-                <a href="#">
+                <a href="calendrier.html">
                     <li>Calendrier</li>
                 </a>
                 <a href="inspi.php">
                     <li>Inspiration</li>
                 </a>
                 <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-                <a href="#">
+                <a href="echange.html">
                     <li>Échange</li>
                 </a>
-                <a href="#">
-                    <li>Login</li>
+                <a href="compte.html">
+                    <li>Compte</li>
                 </a>
             </ul>
         </div>
@@ -59,8 +59,6 @@
     $conn->exec($sql);
     ?>
     <h2>Votre post a bien été créé !</h2>
-
-
 
     <script src="script.js"></script>
 </body>

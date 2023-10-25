@@ -24,17 +24,17 @@
                 <a id="home" href="index.html">
                     <li>Home</li>
                 </a>
-                <a href="#">
+                <a href="calendrier.html">
                     <li>Calendrier</li>
                 </a>
                 <a href="inspi.php">
                     <li>Inspiration</li>
                 </a>
                 <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-                <a href="#">
+                <a href="echange.html">
                     <li>Échange</li>
                 </a>
-                <a href="#">
+                <a href="compte.html">
                     <li>Compte</li>
                 </a>
             </ul>
