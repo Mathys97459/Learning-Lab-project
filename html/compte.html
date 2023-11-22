@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/compte.css">
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/poster.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <title>Document</title>
+    <title>Créafutures</title>
 
     <nav role="navigation">
         <div id="menuToggle">
@@ -44,38 +42,47 @@
 </head>
 
 <body>
-    <?php
-    $host = "localhost"; //serveur
-    $username = "root"; //identifiant pour acceder à la base de données
-    $password = "root"; //mdp de username
-    $dbname = "Learning Lab"; //Nom de la base de données
-
-
-    try {
-        $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password); //variable connexion : accès à la base de données
-    } catch (PDOException $e) {
-        echo "Connection failed: " . $e->GetMessage();
-    }
-
-
-    $affichage = "SELECT posts_id, posts_image, posts_titre, posts_pp, posts_user FROM posts";
-    $resultat = $conn->prepare($affichage);
-    $resultat->execute();
-    ?>
-    <div class="section-form">
-        <h2>Créer un post</h2>
-        <form action="post-cree.php" method="post">
-            Titre du post: <input type="text" name="titre" placeholder="Titre du post">
-            Lien de votre image: <input type="text" name="image" placeholder="https://monimage.png">
-            Nom d'utilisateur: <input type="text" name="username" placeholder="mon_pseudo">
-            <input type="submit">
-        </form>
-    </div>
-
-
-    <script src="script.js"></script>
-</body>
-<footer>
+    <body>
+        <div class="global">
+       <div class="compte">
+        <div class="hcompte">
+        <div class="reglage">
+            <h3>REGLAGE</h3>
+            <h5>Compte</h5>
+        </div>
+        <div class="photo">
+            <img src="../img/logo-blanc.png">
+        </div>
+        </div>
+    
+        <div class="ligne"></div>
+        <div class="bcompte">
+            <div class="formulaire">
+                <form action="#" method="post" class="formulaire">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+        
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+        
+                    <label for="date_naissance">Date de naissance :</label>
+                    <input type="date" id="date_naissance" name="date_naissance" required>
+        
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="mot_de_passe">Mot de passe :</label>
+                    <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+                    <input type="submit" value="Créer mon compte">
+                </form>
+            </div>
+           <!--- <div class="imgcompte">
+                <img src="../img/laptop-1035345_1280.jpg" width="50%;">
+         </div>-->
+        </div>
+        
+        </div>
+    <footer>
         <div class="column1">
             <img src="../img/logo-blanc.png" alt="logo">
         </div>
@@ -96,4 +103,5 @@
                 <button type="submit">></button>
         </div>
     </footer>
+</body>
 </html>

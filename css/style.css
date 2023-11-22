@@ -57,7 +57,7 @@ video {
 
 .rectangle {
     width:80%;
-    background-color: rgba(189, 195, 199, 0.5);
+    background-color: rgba(99, 99, 99, 0.5);
     position:absolute;
     Z-index:1;
     top: 50%;
@@ -94,6 +94,8 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .card-event {
@@ -121,4 +123,22 @@ a {
     color: black;
     margin: 0 10px 0 10px;
     align-items: end;
+}
+
+.column3 img {
+    height:30px;
+    width:30px;
+}
+
+.column1 img {
+    height:70px;
+    width:70px;
+}
+
+input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
